@@ -35,15 +35,15 @@ body {
 
 .card-div {
   margin: auto auto;
-  height: 50rem;
-  width: 30rem;
+  height: 51rem;
+  width: 32rem;
   background-color: var(--grey-800);
   color: var(--white-color);
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
-  padding: 2.4rem;
+  padding: 3rem 2.4rem 2.4rem;
   border-radius: 1rem;
 }
 
@@ -65,13 +65,14 @@ body {
 
 .card-div p {
   color: var(--white-color);
-  margin-bottom: 1.8rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
 }
 
 li {
   list-style: none;
   background-color: var(--grey-700);
-  width: 24rem;
+  width: 25rem;
   height: 4rem;
   text-align: center;
   border-radius: 0.5rem;
@@ -81,6 +82,12 @@ li {
   line-height: 4rem;
 }
 
+li:hover {
+  background-color: var(--green-color);
+  color: var(--grey-800);
+  cursor: pointer;
+}
+
 li:not(:last-child) {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
 }
